@@ -82,24 +82,76 @@ body {
 
 .title {
   text-align: center;
-
+  padding: 2rem;
   font-size: 26px;
   font-weight: 700;
 }
 .imageholders {
   display: flex;
   justify-content: space-around;
+  margin: auto;
+  width: 60%;
 }
 .imagecards {
-  width: 60%;
+  width: 180px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 .imagecards img {
   width: 180px;
   height: 180px;
   border-radius: 25px;
-  border: 5px solid #3882f6;
+  border: 3px solid #3882f6;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 5rem;
+  text-align: center;
+}
+
+.actquote {
+  font-size: 36px;
+  margin: auto;
+  width: 45%;
+}
+
+.skyequote {
+  font-size: 22px;
+  margin-left: 15%;
+}
+
+.footer {
+  padding: 5%;
+  display: flex;
+}
+
+.cta {
+  width: 45%;
+  height: 20%;
+  background-color: #3882f6;
+  margin: auto;
+  border-radius: 15px;
+  color: white;
+}
+
+.cta h3 {
+  margin-left: 5rem;
+  margin-bottom: 0;
+  margin-top: 3rem;
+}
+
+.cta p {
+  margin-left: 5rem;
+  margin-bottom: 3rem;
+  margin-top: 0rem;
+}
+
+.copyright {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 5px;
 }
