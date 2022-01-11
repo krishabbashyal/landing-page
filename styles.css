@@ -26,6 +26,16 @@ body {
   display: flex;
 }
 
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+  color: rgb(16, 187, 255);
+}
+
 .navbar li:last-child {
   margin-right: 10rem;
   display: flex;
